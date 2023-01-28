@@ -7,13 +7,13 @@ class Main {
         int x = sc.nextInt();
 
         if (x == 0) {
-            System.out.println(1);
+            System.out.println(x + "! = 1");
         } else {
             int y = 1;
             for (int z = 1; z <= x; z++) {
                 y = y * z;
             }
-            System.out.println(y);
+            System.out.println(x + "! = " + y);
         }
     }
 }

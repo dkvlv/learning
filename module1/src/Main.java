@@ -12,9 +12,9 @@ class Main {
         double c = x * y;
         double d = x / y;
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
+        System.out.println("Результат сложения: " + a);
+        System.out.println("Результат вычитания: " + b);
+        System.out.println("Результат умножения: " + c);
+        System.out.println("Результат деления: " + d);
     }
 }

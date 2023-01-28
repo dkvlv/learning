@@ -8,9 +8,9 @@ class Main {
         String str2 = new StringBuilder(str).reverse().toString();
 
         if (str.equals(str2)) {
-            System.out.print("true");
+            System.out.print("Введенное слово является палиндромом");
         } else {
-            System.out.print("false");
+            System.out.print("Введенное слово не является палиндромом");
         }
     }
 }
